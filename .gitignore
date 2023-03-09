@@ -1,0 +1,6 @@
+# .terraform artifacts
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+key.pem
