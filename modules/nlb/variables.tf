@@ -1,6 +1,6 @@
 variable "datacenter" {
   type = string
-//  default = "leumi"
+  //  default = "leumi"
 }
 
 variable "vpc_id" {

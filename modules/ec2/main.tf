@@ -16,14 +16,14 @@ resource "aws_key_pair" "key_pair" {
 }
 //----------------------------------------------------------------------------------------------
 resource "aws_instance" "node" {
-  instance_type               = var.ec2_type
+  instance_type          = var.ec2_type
   ami                    = var.ami
   key_name               = aws_key_pair.key_pair.id
   vpc_security_group_ids = [var.public_sg]
   subnet_id              = var.public_subnet
 
   tags = {
-//    Name = "terraform_generated_ec2"
+    //    Name = "terraform_generated_ec2"
     Name = var.instance_name
   }
 

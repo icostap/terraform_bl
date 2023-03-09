@@ -1,5 +1,5 @@
 variable "datacenter" {
-  type = string
+  type    = string
   default = "leumi"
 }
 
@@ -21,7 +21,7 @@ variable "nlb_acl_cidr_block" {
 
 variable "instance_name" {
   description = "EC2 Instance Name"
-  default     = "EC2 Test"
+  default     = "EC2-Test"
 }
 
 variable "ami" {

@@ -1,6 +1,6 @@
 variable "datacenter" {
   type = string
-//  default = "leumi"
+  //  default = "leumi"
 }
 
 variable "nlb_acl_cidr_block" {

@@ -4,3 +4,4 @@
 *.tfstate.*
 .terraform.lock.hcl
 key.pem
+plan_output

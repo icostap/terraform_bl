@@ -1,6 +1,6 @@
 variable "datacenter" {
   type = string
-//  default = "leumi"
+  //  default = "leumi"
 }
 
 variable "ami" {
@@ -19,5 +19,5 @@ variable "public_sg" {
 
 variable "instance_name" {
   description = "EC2 Instance Name"
-  default     = "EC2 Test"
+  default     = "EC2-Test"
 }
